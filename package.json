@@ -1,0 +1,31 @@
+{
+  "name": "arr-telegram-bot",
+  "version": "1.2.0",
+  "description": "A Telegram bot to interact with your Radarr and or Sonarr Web App",
+  "dependencies": {
+    "bluebird": "v3.0.6",
+    "fs-extra": "^0.26.4",
+    "i18n": "^0.5.0",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "node-cache": "^3.0.0",
+    "node-telegram-bot-api": "^0.19.2",
+    "request": "^2.88.2",
+    "sonarr-api": "^0.2.0",
+    "winston": "^2.4.5"
+  },
+  "repository": "git://github.com/nathan-owen/arr-telegram-bot",
+  "keywords": [
+    "radarr",
+    "sonarr",
+    "telegram"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "author": "Nathan Owen <nathan.owen@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  }
+}

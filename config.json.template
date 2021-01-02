@@ -1,0 +1,34 @@
+{
+  "telegram": {
+    "botToken": ""
+  },
+  "bot": {
+    "password": "",
+    "owner": 0,
+    "notifyId": 0,
+    "maxResults": 15,
+    "lang": "en"
+  },
+  "radarr": {
+    "hostname": "",
+    "apiKey": "",
+    "port": 7878,
+    "urlBase": "",
+    "ssl": false,
+    "username": "",
+    "password": ""
+  },
+  "defaults" : {
+    "rootFolder": "",
+    "profileId": 1
+  },
+  "sonarr": {
+    "hostname": "",
+    "apiKey": "",
+    "port": 8989,
+    "urlBase": "",
+    "ssl": false,
+    "username": "",
+    "password": ""
+  }
+}
